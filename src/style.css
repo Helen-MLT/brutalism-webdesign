@@ -1,3 +1,15 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
 header {
   padding: 80px 0;
 }
@@ -17,6 +29,31 @@ h2 {
   text-align: center;
   margin: 30px 0;
 }
+
+footer {
+  padding: 50px 0;
+}
+footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+footer p {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: black;
+}
 .chrome-hero {
   display: block;
   margin-left: auto;
@@ -24,7 +61,7 @@ h2 {
   width: 50%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
