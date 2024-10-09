@@ -9,6 +9,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  gap: 64px;
 }
 header {
   padding: 80px 0;
@@ -41,7 +42,6 @@ footer h3 {
 footer p {
   font-size: 16px;
   line-height: 1;
-  margin-right: 20px;
 }
 footer ul {
   padding: 0;
