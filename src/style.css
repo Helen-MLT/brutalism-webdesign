@@ -9,7 +9,7 @@ section {
 }
 .grid {
   display: grid;
-  gap: 64px;
+  gap: 30px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -17,15 +17,29 @@ section {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 30px 0;
+  padding: 30px;
+}
+.btn {
+  color: black;
+  display: block;
+}
+
 header {
   padding: 80px 0;
 }
-.chrome-hero,
-.computer-img {
+.img-responsive {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
+  border-radius: 20px;
 }
 h1 {
   font-family: "DM Sans", sans-serif;
@@ -51,11 +65,18 @@ main h2 {
   line-height: 1.5;
   margin: 0;
 }
+main h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 10px;
+}
 
 footer h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
+  margin: 0;
 }
 footer p {
   font-size: 16px;
@@ -85,7 +106,7 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 5px;
   }
   section {
     padding: 30px;
