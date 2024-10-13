@@ -42,20 +42,20 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
   border-radius: 20px;
 }
 h1 {
   font-family: "DM Sans", sans-serif;
-  font-size: 140px;
+  font-size: 120px;
   font-weight: 700;
   line-height: 1.5;
   text-align: center;
   margin: 0 auto;
 }
 h2 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1.5;
   text-align: center;
@@ -103,10 +103,14 @@ footer a {
     padding: 60px 0;
   }
   h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 30px;
+  }
+  main h2 {
+    font-size: 30px;
+    line-height: 1;
   }
   .grid {
     grid-template-columns: 1fr;
